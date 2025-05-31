@@ -1,0 +1,8 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+foo = { version = "0.1.0", path = "../libs/foo" }
+service = { version = "0.1.0", path = "../libs/service" }

@@ -1,0 +1,8 @@
+[package]
+name = "service"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+foo = { version = "0.1.0", path = "../foo" }
+num = "0.4.3"
